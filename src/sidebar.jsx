@@ -61,7 +61,17 @@ function Sidebar() {
               class="fas fa-fw mx-2"
               icon={faTable}
             ></FontAwesomeIcon>
-            <span>Tables</span>
+            <span>Users</span>
+          </Link>
+        </li>
+        {/* <!-- Nav Item - Dashboard --> */}
+        <li class="nav-item active">
+          <Link class="nav-link" to="/Products">
+            <FontAwesomeIcon
+              class="fas fa-fw mx-2"
+              icon={faFile}
+            ></FontAwesomeIcon>
+            <span>Products</span>
           </Link>
         </li>
 
@@ -113,16 +123,6 @@ function Sidebar() {
           </Link>
         </li>
 
-        {/* <!-- Nav Item - Dashboard --> */}
-        <li class="nav-item active">
-          <Link class="nav-link" to="/Others">
-            <FontAwesomeIcon
-              class="fas fa-fw mx-2"
-              icon={faFile}
-            ></FontAwesomeIcon>
-            <span>Others</span>
-          </Link>
-        </li>
       </ul>
     </div>
   );
