@@ -10,6 +10,7 @@ import {
   faTabletButton,
   faBorderStyle,
   faFile,
+  faUsers
 } from "@fortawesome/free-solid-svg-icons";
 function Sidebar() {
   return (
@@ -72,6 +73,17 @@ function Sidebar() {
               icon={faFile}
             ></FontAwesomeIcon>
             <span>Products</span>
+          </Link>
+        </li>
+
+                {/* <!-- Nav Item - Dashboard --> */}
+                <li class="nav-item active">
+          <Link class="nav-link" to="/Studentmanagement">
+            <FontAwesomeIcon
+              class="fas fa-fw mx-2"
+              icon={faUsers}
+            ></FontAwesomeIcon>
+            <span>Students Management</span>
           </Link>
         </li>
 
