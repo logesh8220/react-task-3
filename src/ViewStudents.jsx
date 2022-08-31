@@ -38,10 +38,9 @@ function ViewStudents() {
             <div className="AddProducts">
             <button className="btn btn-primary"><Link to="/CreateStudent" className="text-light">Create Student</Link></button>
             </div>
-<<<<<<< HEAD
-=======
+
+
      <h1 className="text-center text-dark">Mentor: {params.Name}</h1><br></br>
->>>>>>> a5b298b26ba2a364cf923ceef5b3d05f40b3917c
       <table class="table table-bordered text-center">
         <thead>
           <th className="text-dark">Id</th>
