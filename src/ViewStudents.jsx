@@ -38,8 +38,6 @@ function ViewStudents() {
             <div className="AddProducts">
             <button className="btn btn-primary"><Link to="/CreateStudent" className="text-light">Create Student</Link></button>
             </div>
-     <h1 className="text-center text-dark">Mentor: {params.Name}</h1><br></br>
-     <h1 className="text-center text-dark">Batch: {params.Batch}</h1><br></br>
       <table class="table table-bordered text-center">
         <thead>
           <th className="text-dark">Id</th>

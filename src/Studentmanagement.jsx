@@ -1,9 +1,12 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import UserContext from './UserContext'
 
 
 function Studentmanagement() {
+    let usdata = useContext(UserContext)
+    console.log(usdata.data)
     const [mentor,setMentor] = useState([])
     const [isLoading,setLoading] = useState(false)
     useEffect(()=>{
