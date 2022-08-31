@@ -22,9 +22,11 @@ import ViewStudents from "./ViewStudents";
 import ChangeMentor from "./ChangeMentor";
 import CreateStudent from "./CreateStudent";
 import CreateMentor from "./CreateMentor";
+import { UserProvider } from "./UserContext";
 function App() {
   return (
     <BrowserRouter>
+            <UserProvider>
       <div id="wrapper">
         <Sidebar></Sidebar>
         <div id="content-wrapper" class="d-flex flex-column">
@@ -52,6 +54,7 @@ function App() {
           </div>
         </div>
       </div>
+              </UserProvider>
     </BrowserRouter>
   );
 }
